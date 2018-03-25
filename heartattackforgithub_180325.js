@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(800,800);
+  createCanvas(400,400);
   frameRate(6);
 }
 
@@ -12,14 +12,14 @@ function draw() {
   rect(0,100,400,100);
   triangle(0,200,200,400,400,200);
   float i, j, r,k,s,v,t,y;
-  i=random(800);
-  j=random(800);
-  r=random(800);
-  k=random(800);
-  s=random(800);
-  v=random(800);
-  t=random(800);
-  y=random(800);
+  i=random(400);
+  j=random(400);
+  r=random(400);
+  k=random(400);
+  s=random(400);
+  v=random(400);
+  t=random(400);
+  y=random(400);
   
       {
       fill(random(255),random(255),random(255));
